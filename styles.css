@@ -1,0 +1,179 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: floralwhite;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.header .top {
+    /* border-bottom: solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar {
+    display: flex;
+    gap: 10px;
+}
+
+.searchbar input {
+    width: 700px;
+    height: 25px;
+    align-self: center;
+    border-radius: 15px;
+    border-style: inherit;
+    background-color: lightgray;
+}
+
+.searchbar #searchImg {
+    width:30px;
+    height:30px;
+    align-self: center;
+}
+
+
+.right-name {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    gap: 40px;
+}
+
+.right-name #bellImg{
+    width:30px;
+    height:30px;
+}
+
+.right-name #profileImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .left-name #profileImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.header .left-name {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header .left-name p {
+    font-size: 15px;
+}
+ 
+
+.header .bottom .buttons {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.header .bottom .buttons button {
+    height: 50px;
+    width: 120px;
+    border-radius:25px;
+    border-style:inherit;
+    background-color: rgb(90, 90, 240);
+}
+/* ----------------------------------------------------- */
+
+.dashboard {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.dashboard .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.dashboard  div {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;;
+    font-weight: bold;
+}
+
+.dashboard .list1,.list2 {
+    padding-left: 0;
+}
+
+.dashboard .list1
+
+.dashboard img{
+    width:30px;
+    height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    /* border: solid; */
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: lightgray;
+}
+
+
+
